@@ -1,6 +1,8 @@
 <template>
   <nuxt-link :to="`jokes/${joke.id}`">
-    <div>
+    <div
+      class="mx-10 my-5 bg-white hover:bg-gray-100 rounded-lg shadow-lg p-4 flex flex-col justify-between leading-normal"
+    >
       <p>{{ joke.joke }}</p>
     </div>
   </nuxt-link>
