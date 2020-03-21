@@ -1,6 +1,7 @@
 # first-nuxt-app
 
-> My glorious Nuxt.js project
+> Dad Jokes App
+> Built with Nuxt.js, Tailwind CSS, and Typescript
 
 ## Build Setup
 
