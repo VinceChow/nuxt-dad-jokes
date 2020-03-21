@@ -25,7 +25,10 @@
 </template>
 
 <script lang="ts">
-export default {};
+import { Vue, Component } from 'vue-property-decorator';
+
+@Component
+export default class Logo extends Vue {}
 </script>
 
 <style>
