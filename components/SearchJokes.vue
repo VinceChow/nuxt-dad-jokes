@@ -1,11 +1,11 @@
 <template>
-  <form class="w-full max-w-sm py-5" @submit.prevent="onSubmit">
-    <div class="md:flex md:items-center mb-6">
+  <form class="w-full py-2" @submit.prevent="onSubmit">
+    <div class="flex items-center">
       <div class="md:w-2/3 px-5">
         <input
           id="inline-full-name"
           v-model="text"
-          class="bg-white-200 appearance-none rounded-lg shadow-sm w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none border-white focus:bg-white focus:border-green-500"
+          class="bg-white-200 appearance-none rounded-lg shadow-sm w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none border-white focus:bg-green-100 focus:border-green-500"
           type="text"
           placeholder="Joke"
         />
