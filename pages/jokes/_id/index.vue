@@ -48,7 +48,7 @@ export default class SingleJoke extends Vue {
         config
       );
       const gifRes = await this.$axios.$get(
-        `http://api.giphy.com/v1/gifs/random?api_key=sXpGFDGZs0Dv1mmNFvYaGUvYwKX0PWIh&tag=laugh`
+        `https://api.giphy.com/v1/gifs/random?api_key=sXpGFDGZs0Dv1mmNFvYaGUvYwKX0PWIh&tag=laugh`
       );
       this.joke = jokeRes;
       this.gifUrl = gifRes.data.image_original_url;
