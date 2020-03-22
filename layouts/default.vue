@@ -1,7 +1,9 @@
 <template>
   <div>
     <TheAppHeader />
-    <nuxt />
+    <div class="p-2 bg-gray-200 h-auto">
+      <nuxt />
+    </div>
   </div>
 </template>
 

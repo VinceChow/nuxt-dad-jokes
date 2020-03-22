@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="items-center justify-center">
     <SearchJokes @search-text="searchText" />
     <Joke v-for="joke in jokes" :key="joke.id" :joke="joke" />
   </div>
