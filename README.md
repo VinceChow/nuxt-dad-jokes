@@ -1,7 +1,10 @@
 # first-nuxt-app
 
 > Dad Jokes App
+
 > Built with Nuxt.js, Tailwind CSS, and Typescript
+
+> https://nuxt-dad-jokes.herokuapp.com/
 
 ## Build Setup
 
